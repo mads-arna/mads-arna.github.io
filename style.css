@@ -6,11 +6,13 @@
   padding: 0;
 }
 :root {
-  --pri-color: #195438;
+  --pri-color: #033500;
+  --link-color: #105e26;
   --font-color: white;
   --font-fam: "Oswald", monospace;
   --logo-clr: #f28900;
   --mult-clr: #071888;
+  --lee-clr: #4c0013;
 }
 body {
   min-height: 100vh;
@@ -87,7 +89,7 @@ h3 {
 }
 .description {
   z-index: 1;
-  background-color: var(--pri-color);
+  background-color: var(--link-color);
   border: 1px solid var(--font-color);
   align-self: end;
   margin-bottom: 1rem;
@@ -108,6 +110,9 @@ h3 {
 }
 .multiple {
   background-color: var(--mult-clr);
+}
+.lee-colour {
+  background-color: var(--lee-clr);
 }
 
 @media (min-width: 500px) {
