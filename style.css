@@ -112,7 +112,7 @@ h3 {
   background-color: var(--mult-clr);
 }
 .lee-colour {
-  background-color: var(--lee-clr);
+  background-color: var(--lee-color);
 }
 
 @media (min-width: 500px) {
